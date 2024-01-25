@@ -81,7 +81,7 @@ def partida():
 def main():
     opt = 0
     while (opt != 1 and opt != 2):
-        opt = int(input("\nBem-vindo ao jogo do NIM! Escolha:\n\n1 - para jogar uma partida isolada\n2 - para jogar um campeonato "))
+        opt = int(input("\nBem-vindo ao jogo do NIM! Escolha:\n\n1 - para jogar uma partida isolada\n2 - para jogar um campeonato\nEscolha: "))
 
     if (opt == 1):
         print("Voce escolheu uma partida isolada!")
